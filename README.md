@@ -1,7 +1,7 @@
 # Coding Example Assignment
 
 This python module is intended to handle Use Cases 1 and 6 of 
-the US SBA PPP Loan Forgiveness API found [here](https://ussbaforgiveness.github.io/).
+the [US SBA PPP Loan Forgiveness API](https://ussbaforgiveness.github.io/).
 
 ## Requirements
 
