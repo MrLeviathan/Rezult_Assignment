@@ -36,7 +36,7 @@ def submit_forgiveness_request(client: Client,
         entity_name=entity_name,
         ein=ein,
         funding_date=funding_date,
-        ez_form= False,
+        ez_form=False,
         s_form=True,
     )
 
@@ -56,7 +56,7 @@ def submit_forgiveness_request(client: Client,
     return creation_result["data"]
 
 
-def view_disbursed_loans(client: Client, sba_number: str = None) -> str:
+def view_disbursed_loans(client: Client, sba_number: str) -> str:
     """
     This method will return data on disbursed loans, or the data of a specific loan if sba_number is provided
     :param client: A client object
